@@ -1,0 +1,45 @@
+body{
+    
+    margin: 0px;
+    padding: 0px;
+}
+
+::selection{
+    background-color: gold;
+    color: white;
+
+}
+p::first-letter{
+    font-size: 51px;
+    font-family:fantasy;
+}
+
+.header-kalam{
+   margin-top: 5%;
+   margin-left: 15%;
+   
+   padding-left: 5%;
+}
+
+.container{
+    font-family: cursive;   
+    margin-top: 1%;
+    margin-right: 15%;
+    margin-left: 15%;
+    padding: 5%;
+    padding-top: 1%;
+    
+}
+
+.abul1{
+    float: right;
+}
+
+.kalam2{
+    float: left;
+    /* margin-right: 45px; */
+}
+
+.kalam3{
+    
+}

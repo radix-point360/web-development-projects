@@ -1,0 +1,49 @@
+quizzdb = [
+
+	{
+	question:"Which of the follwoing is the language of Internet?".,
+	a:"HTML",
+	b:"CSS',
+	c"JavaScript",
+	D:"notepad"  	
+
+	},
+	
+	{
+	question:"Inside which HTML element do we put the JavaScript?",
+	a:"<javascript>",
+	b:"<js>",
+	c:"<src>",
+	d:"<script>",
+	}
+
+	{
+	question:"Where is the correct place to insert a JavaScript?",
+	a:"Both the head section and the body section are correct",
+	b:"The head section",
+	c:"The body section",
+	d:"None of the above",
+	}
+	
+	{
+	question:"What will be the output of the following code?
+	< script > document.write( typeof( '1' + 2) ); </ script >",
+	a:"'boolean'",
+	b:"'string'",
+	c:"'number'",
+	d:"None of the above",
+	}
+
+
+
+fuctions we need
+
+1. quizload()
+2. deSelectAnswer() radion button
+3. getSelectedAnswer()
+4. addEventListener()
+
+
+
+
+]

@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Uchen&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mouse Memoirs', sans-serif;
+
+}
+
+
+
+.container{
+    
+    background-color: aquamarine;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    border: none;
+    outline: none;
+    /* border: 2px solid  red; */
+    border-radius: 15px;
+    background-color: aliceblue;
+    width: 600px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 400px;
+    height: 500px;
+
+}
+
+.showResult{
+    border: none;
+    outline: none;
+    text-align: right;
+    font-size: 55px;
+    border: none;
+    border-radius: 8px;
+    padding: 20px;
+    grid-column: span 2;
+}
+
+.clear{
+    background-color: tomato;
+}
+.clear:hover{
+    background-color: red;
+}
+.delete{
+   background-color: yellowgreen;
+}
+.delete:hover{
+    background-color: goldenrod;
+}
+
+.numbers{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+
+.operators{
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+
+.foot{
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: ; */
+}
+.foot button{
+    flex-basis: 50%;
+}
+
+
+.equal{
+    background-color: royalblue;
+    flex-basis: 50%;
+}
+
+.equal:hover{
+    background-color: green;
+}
+button{
+    /* background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%); */
+    background-color: pink;
+    font-size: 25px;
+    border: none;
+    border-radius: 8px;
+    margin: 5px;
+    padding: 5px;
+    outline: none;
+    transition: .3s;
+
+}
+
+
+button:hover{
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #b2bec3;
+    background-color: #dfe6e9;  
+    
+}
